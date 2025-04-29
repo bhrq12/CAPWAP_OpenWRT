@@ -1,8 +1,3 @@
-# Copyright (C) 2023 Your Name
-# This is free software, licensed under the GNU General Public License v2.0.
-# See /LICENSE for more information.
-# $Id: Makefile $
-
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=CAPWAP_OpenWRT
@@ -22,9 +17,7 @@ define Package/$(PKG_NAME)
 endef
 
 define Package/$(PKG_NAME)/description
-  This package provides an implementation of the CAPWAP protocol for OpenWRT, 
-  enabling Access Controllers (AC) and Wireless Termination Points (WTP) to 
-  interoperate over a WLAN network.
+  This package provides an implementation of the CAPWAP protocol for OpenWRT.
 endef
 
 define Build/Prepare
